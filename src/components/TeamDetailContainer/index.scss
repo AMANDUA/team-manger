@@ -1,0 +1,22 @@
+.default-section-logo {
+    background: url(../../Team.png) 50% no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+}
+
+.default-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-details {
+    padding: 25px;   
+}
+
+h2 {
+    border-bottom: 1px solid;
+}

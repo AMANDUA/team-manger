@@ -1,0 +1,13 @@
+.team-card-wrapper {
+    height: 20px;
+    width: 190px;
+    padding: 5px;
+    background: #ffffff;
+    margin: 5px;
+    border-right: 10px solid #979700;
+    cursor: pointer;
+
+    &.selected {
+        background-color: #b2b231;
+    }
+}

@@ -1,0 +1,10 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  // overflow-y: scroll; // IE11 Bug with scroll bar: See https://www.sitepoint.com/community/t/content-shifting/110141/9
+  background-color: #ffffff;
+}

@@ -1,0 +1,51 @@
+.create-team-header {
+    border: 1px transparent;
+    padding: 10px;
+    background-color: #ffffff;
+    align-self: center;
+    display: flex;
+
+
+    & button {
+        background: rgb(238, 189, 99);
+        height: 40px;
+        width: 85px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+}
+
+.select-group {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+        color: #000000;
+    }
+
+    & select {
+        height: 25px;
+        background: darkseagreen;
+    }
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+        color: #000000;
+    }
+
+    & input {
+        line-height: 18px;
+        background: darkseagreen;
+        margin: 0px 5px 0px 5px;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}

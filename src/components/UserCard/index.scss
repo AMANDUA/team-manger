@@ -1,0 +1,33 @@
+.user-card {
+    border: 1px transparent;
+    padding: 15px;
+    background: lightgray;
+    margin-top: 5px;
+}
+
+.user-name,
+.user-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card-wrapper {
+    input {
+        margin: 5px 0px 5px 0px;
+        border-radius: 12px;
+    }
+
+    textarea {
+        resize: none;
+        border-radius: 12px;
+        height: auto;
+    }
+
+    button {
+        background: red;
+        margin-top: 5px;
+        height: 30px;
+        width: 200px;
+        cursor: pointer;
+    }
+}
